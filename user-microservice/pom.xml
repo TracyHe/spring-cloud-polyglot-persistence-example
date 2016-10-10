@@ -13,7 +13,7 @@
     </parent>
 
     <properties>
-        <docker.image.prefix>kbastani</docker.image.prefix>
+        <docker.image.prefix>docker4tracy</docker.image.prefix>
     </properties>
 
     <dependencies>

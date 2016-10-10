@@ -10,7 +10,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/kbastani/spring-boot-microservice-config
+          uri: https://github.com/TracyHe/spring-boot-microservice-config
 encrypt:
   failOnError: false
 eureka:
@@ -28,7 +28,7 @@ eureka:
       defaultZone: http://discovery-77.cfapps.io/eureka/
 info:
   description: Config Server
-  url: https://github.com/kbastani/spring-cloud-microservice-example
+  url: https://github.com/TracyHe/spring-cloud-microservice-example
 ---
 spring:
   profiles: docker
@@ -38,7 +38,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/kbastani/spring-boot-microservice-config
+          uri: https://github.com/TracyHe/spring-boot-microservice-config
 encrypt:
   failOnError: false
 eureka:
@@ -55,4 +55,4 @@ eureka:
       defaultZone: http://192.168.59.103:8761/eureka/
 info:
   description: Config Server
-  url: https://github.com/kbastani/spring-cloud-microservice-example
+  url: https://github.com/TracyHe/spring-cloud-microservice-example
